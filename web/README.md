@@ -1,6 +1,6 @@
-# RaringClub Front end
+# PepperDAO Front end
 
-RaringClub Dapp implementation
+PepperDAO Dapp implementation
 
 ## Running the Dapp
 
