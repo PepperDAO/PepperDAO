@@ -34,7 +34,7 @@ Tips:
 You could just copy all the sol files in the contracts folder and try them directly in Remix ide. 
 
 
-# Web App 
+## Web App 
 
 This is a pretty simple bootstrap code that uses the best practices (typechain etc). To run this, you can just goto the web folder and do `yarn install` and then `yarn run`. A simple wallet based login is implemented using Aragon's use-wallet
 
