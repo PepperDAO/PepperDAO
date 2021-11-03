@@ -1,16 +1,16 @@
 # PepperDAO
 
-Welcome to Pepper DAO  - A simple DAO boiler plate implementation
+Welcome to Pepper DAO  - A simple DAO boiler plate implementation with its native ERC20 Token, an Open Zeppelin based Governer implementation, and a community NFT
 
 To boostrap development, open up the root folder in VS Code, and you'll see two sub folders - chain and web. 
 
-**Testing the contracts**
+**Contracts**
 
 Chain folder contans the Smart Contracts, mostly based on the OpenZeppelin boiler plates
 
-* The basic ERC20 Token (PEPDAO token in PepperDAO.sol) 
-* The Governance contract (PepperGovernor.sol). 
-* I also added an NFT / ERC 721 token (PepperNft.sol) -  could modify the minting logic later so that only the holders of PEEPDAO token can mint it, for perks etc
+* PepperDAO.sol - The basic ERC20 Token (PEPDAO token) 
+* PepperGovernor.sol - The Governance contract
+* PepperNft.sol - An NFT / ERC 721 token -  could modify the minting logic later so that only the the community holders can mint it
 
 
 First to compile smart contracts
@@ -33,7 +33,7 @@ You could just copy all the sol files in the contracts folder and try them direc
 
 
 
-**Testing the web app**
+**Web App**
 
 This is a pretty simple bootstrap code that uses all the best practices (typechain etc). To run this, you can just goto the web folder and do `yarn install` and then `yarn run`
 
