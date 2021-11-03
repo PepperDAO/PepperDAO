@@ -8,8 +8,8 @@ To boostrap development, open up the root folder in VS Code, and you'll see two 
 
 Chain folder contans the Smart Contracts, mostly based on the OpenZeppelin boiler plates
 
-* PepperDAO.sol - The basic ERC20 Token (PEPDAO token) 
-* PepperGovernor.sol - The Governance contract
+* PepperDAO.sol - The community ERC20 Token (PEPDAO token) 
+* PepperGovernor.sol - The Governance contract based on OpenZeppelin governor
 * PepperNft.sol - An NFT / ERC 721 token -  could modify the minting logic later so that only the the community holders can mint it
 
 
