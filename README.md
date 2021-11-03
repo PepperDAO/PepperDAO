@@ -1,6 +1,6 @@
 # PepperDAO
 
-Welcome Pepper DAO  - A simple DAO boiler plate implementation
+Welcome to Pepper DAO  - A simple DAO boiler plate implementation
 
 To boostrap development, open up the root folder in VS Code, and you'll see two sub folders - chain and web. 
 
