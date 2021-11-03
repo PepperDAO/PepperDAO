@@ -1,0 +1,138 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+    --amplify-primary-color:#4582ec;
+}
+
+
+body {
+ 
+    background: #efefef;
+}
+
+.cover {
+    background: #fff;
+}
+
+.cover-secondary {
+    background: #5e81f1;
+}
+
+.btn-white  {
+    background-color: #ffff !important;
+        color:black;
+        border: none;
+        outline: none;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none;
+    /* You may want to include this as bootstrap applies these styles too */
+}
+
+.card {
+    margin:20px;
+    transition: box-shadow .4s;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+    float: left;
+}
+
+/* Transition to a bigger shadow on hover */
+.card:hover {
+    box-shadow: 0 2px 15px rgba(33,33,33,.2);;
+}
+
+
+
+.fill-window {
+    height: 100% !important;
+    position: absolute;
+    left: 0;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color:#ffff !important;
+    color:blue !important;
+    border-left: 2px solid blue;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link {
+    cursor: pointer !important;
+}
+
+
+.margin {
+    margin: 10px;
+}
+
+.title {
+    color: black !important;
+    text-decoration: solid;
+}
+
+
+.wallet-address-info {
+    font-size: 10px;
+    background: "#dfdfdf";
+    margin: 1px;
+    padding: 4px;
+    border: #8f8f9f 1px solid;
+}
+
+h1.big, h2.big {
+    font-size: 60px;
+    line-height: 86px;
+    vertical-align: middle
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.bottom-center {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.form-field {
+    margin-bottom:5px !important;
+}
+
+.hint {
+    margin-bottom:1px !important;
+}
+
+
+
+.button {
+    border-radius:0.8rem !important;
+    margin:10px;
+    padding:10px !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
