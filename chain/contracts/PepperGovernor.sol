@@ -1,12 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
+
 import "@openzeppelin/contracts/governance/Governor.sol";
 import "@openzeppelin/contracts/governance/compatibility/GovernorCompatibilityBravo.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorVotesComp.sol";
 import "@openzeppelin/contracts/governance/extensions/GovernorTimelockCompound.sol";
-
-//Modified to have support for Comp Bravo as some UIs like Boardroom needs it 
 
 /// @custom:security-contact amazedsaint@gmail.com
 contract PepperGovernor is Governor, GovernorCompatibilityBravo, GovernorVotesComp, GovernorTimelockCompound {
@@ -21,11 +20,11 @@ contract PepperGovernor is Governor, GovernorCompatibilityBravo, GovernorVotesCo
     }
 
     function votingPeriod() public pure override returns (uint256) {
-        return 45818; // 1 week
+        return 19636; // 3 days
     }
 
     function quorum(uint256 blockNumber) public pure override returns (uint256) {
-        return 1000000000e18;
+        return 500000000e18; //5% of total supply is required 
     }
 
     function proposalThreshold() public pure override returns (uint256) {
