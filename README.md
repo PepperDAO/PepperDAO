@@ -4,7 +4,7 @@ Welcome to Pepper DAO  - A simple DAO boiler plate implementation with its nativ
 
 To boostrap development, open up the root folder in VS Code, and you'll see two sub folders - `chain` and `web`. 
 
-*Contracts*
+## Contracts
 
 Chain folder contans the Smart Contracts, mostly based on the OpenZeppelin boiler plates
 
@@ -34,7 +34,7 @@ Tips:
 You could just copy all the sol files in the contracts folder and try them directly in Remix ide. 
 
 
-*Web App*
+# Web App 
 
 This is a pretty simple bootstrap code that uses the best practices (typechain etc). To run this, you can just goto the web folder and do `yarn install` and then `yarn run`. A simple wallet based login is implemented using Aragon's use-wallet
 
