@@ -20,7 +20,7 @@ contract PepperGovernor is Governor, GovernorCompatibilityBravo, GovernorVotesCo
     }
 
     function votingPeriod() public pure override returns (uint256) {
-        return 19636; // 3 days
+        return 19636; // 3 days voting period
     }
 
     function quorum(uint256 blockNumber) public pure override returns (uint256) {
